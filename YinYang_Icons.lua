@@ -118,6 +118,17 @@ return {
             },
 
             ClickSound = { Id = "rbxassetid://122225901664901", Volume = 0.49 },
+
+            --// Ojos parpadeantes blancos superpuestos al icono quieto
+            --// X1/Y1 = ojo izquierdo, X2/Y2 = ojo derecho (0..1 relativo al ToggleButton)
+            --// Si no quedan bien, ajusta X1/X2/Y1/Y2 en pasos de 0.05
+            Eyes = {
+                X1   = 0.34,  -- ojo izquierdo: ~35% desde la izquierda
+                Y1   = 0.40,  -- ojo izquierdo: ~40% desde arriba
+                X2   = 0.52,  -- ojo derecho:   ~52% desde la izquierda
+                Y2   = 0.40,  -- ojo derecho:   misma altura
+                Size = 0.09,  -- diametro de cada punto (~9% del boton = ~4px)
+            },
         },
 
         --// Agrega aca los proximos iconos, copiando esta plantilla:
