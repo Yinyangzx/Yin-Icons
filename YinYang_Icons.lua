@@ -112,7 +112,7 @@ return {
 
             Layers = {
                 -- Capa 1: icono central quieto (mas pequeño para no tapar los dragones)
-                { Image = "rbxassetid://121924081188757", Movement = "None", Scale = 1.9 },
+                { Image = "rbxassetid://121924081188757", Movement = "None", Scale = 1.3 },
                 -- Capa 2: dragones girando bien grandes alrededor
                 { Image = "rbxassetid://95047780876541", Movement = "Spin", Speed = 75, Direction = 1, Style = "Organic", Scale = 3.0 },
             },
