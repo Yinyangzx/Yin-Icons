@@ -107,20 +107,20 @@ return {
         },
 
         DraconicStyle = {
-            LabelES = "Estilo Dracónico",
+            LabelES = "Estilo Draconico",
             LabelEN = "Draconic Style",
 
             Layers = {
-                -- Capa 1: ícono central quieto
-                { Image = "rbxassetid://117533648452730", Movement = "None" },
-                -- Capa 2: dragones girando (Speed 75 = velocidad media-rápida)
-                { Image = "rbxassetid://137786455340930", Movement = "Spin", Speed = 75, Direction = 1, Style = "Organic" },
+                -- Capa 1: icono central quieto (escala normal)
+                { Image = "rbxassetid://117533648452730", Movement = "None", Scale = 1.6 },
+                -- Capa 2: dragones grandes girando alrededor (Scale 2.5 = mucho mas grandes)
+                { Image = "rbxassetid://137786455340930", Movement = "Spin", Speed = 75, Direction = 1, Style = "Organic", Scale = 2.5 },
             },
 
             ClickSound = { Id = "rbxassetid://122225901664901", Volume = 0.49 },
         },
 
-        --// 👇 Agregá acá los próximos iconos, copiando esta plantilla:
+        --// Agrega aca los proximos iconos, copiando esta plantilla:
         --[[
         NombreInterno = {
             LabelES = "Nombre en Español",
