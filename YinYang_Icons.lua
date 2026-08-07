@@ -111,10 +111,10 @@ return {
             LabelEN = "Draconic Style",
 
             Layers = {
-                -- Capa 1: icono central quieto (escala normal)
-                { Image = "rbxassetid://121924081188757", Movement = "None", Scale = 1.6 },
-                -- Capa 2: dragones grandes girando alrededor (Scale 2.5 = mucho mas grandes)
-                { Image = "rbxassetid://95047780876541", Movement = "Spin", Speed = 75, Direction = 1, Style = "Organic", Scale = 2.5 },
+                -- Capa 1: icono central quieto (mas pequeño para no tapar los dragones)
+                { Image = "rbxassetid://121924081188757", Movement = "None", Scale = 1.1 },
+                -- Capa 2: dragones girando bien grandes alrededor
+                { Image = "rbxassetid://95047780876541", Movement = "Spin", Speed = 75, Direction = 1, Style = "Organic", Scale = 3.0 },
             },
 
             ClickSound = { Id = "rbxassetid://122225901664901", Volume = 0.49 },
@@ -123,11 +123,11 @@ return {
             --// X1/Y1 = ojo izquierdo, X2/Y2 = ojo derecho (0..1 relativo al ToggleButton)
             --// Si no quedan bien, ajusta X1/X2/Y1/Y2 en pasos de 0.05
             Eyes = {
-                X1   = 0.34,  -- ojo izquierdo: ~35% desde la izquierda
-                Y1   = 0.40,  -- ojo izquierdo: ~40% desde arriba
-                X2   = 0.52,  -- ojo derecho:   ~52% desde la izquierda
-                Y2   = 0.40,  -- ojo derecho:   misma altura
-                Size = 0.09,  -- diametro de cada punto (~9% del boton = ~4px)
+                X1   = 0.38,  -- ojo izquierdo
+                Y1   = 0.48,  -- altura vertical (centro del boton)
+                X2   = 0.62,  -- ojo derecho (mas separado)
+                Y2   = 0.48,
+                Size = 0.10,  -- un poco mas grandes para que se vean bien
             },
         },
 
