@@ -114,7 +114,7 @@ return {
                 -- Capa 1: icono central quieto (mas pequeño para no tapar los dragones)
                 { Image = "rbxassetid://121924081188757", Movement = "None", Scale = 1.2 },
                 -- Capa 2: dragones girando bien grandes alrededor
-                { Image = "rbxassetid://95047780876541", Movement = "Spin", Speed = 75, Direction = 1, Style = "Organic", Scale = 2.8 },
+                { Image = "rbxassetid://95047780876541", Movement = "Spin", Speed = 75, Direction = 1, Style = "Organic", Scale = 2.6 },
             },
 
             ClickSound = { Id = "rbxassetid://122225901664901", Volume = 0.60 },
