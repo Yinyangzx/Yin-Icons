@@ -123,11 +123,11 @@ return {
             --// X1/Y1 = ojo izquierdo, X2/Y2 = ojo derecho (0..1 relativo al ToggleButton)
             --// Si no quedan bien, ajusta X1/X2/Y1/Y2 en pasos de 0.05
             Eyes = {
-                X1   = 0.36,  -- ojo izquierdo
+                X1   = 0.32,  -- ojo izquierdo (mas a la izquierda)
                 Y1   = 0.47,  -- centro vertical
-                X2   = 0.64,  -- ojo derecho (bien separado)
+                X2   = 0.68,  -- ojo derecho (mas a la derecha)
                 Y2   = 0.47,
-                Size = 0.13,  -- mas grandes para que se vean bien
+                Size = 0.09,  -- mas pequeños
             },
         },
 
