@@ -66,6 +66,7 @@ return {
     Order = {
         "ClassicYinYang",
         "YinYangPink",
+        "DraconicStyle",
     },
 
     Icons = {
@@ -103,6 +104,20 @@ return {
 
             -- Sin IdleSound/ClickSound propios: usa el genérico de la UI (mismo
             -- comportamiento que ClassicYinYang cuando no se define ninguno).
+        },
+
+        DraconicStyle = {
+            LabelES = "Estilo Dracónico",
+            LabelEN = "Draconic Style",
+
+            Layers = {
+                -- Capa 1: ícono central quieto (el símbolo tipo yin yang de dragones)
+                { Image = "rbxassetid://117533648452730", Movement = "None" },
+                -- Capa 2: los dos dragones que giran alrededor del ícono
+                { Image = "rbxassetid://137786455340930", Movement = "Spin", Speed = 45, Direction = 1, Style = "Organic" },
+            },
+
+            ClickSound = { Id = "rbxassetid://122225901664901", Volume = 0.7 },
         },
 
         --// 👇 Agregá acá los próximos iconos, copiando esta plantilla:
