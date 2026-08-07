@@ -65,6 +65,7 @@ return {
     --// Orden en el que aparecen en la pestaña Logo
     Order = {
         "ClassicYinYang",
+        "YinYangPink",
     },
 
     Icons = {
@@ -87,6 +88,21 @@ return {
 
             -- ClickSound no está seteado acá a propósito:
             -- si se deja nil, usa el sonido de click genérico de la UI (comportamiento actual)
+        },
+
+        --// 🧪 PRUEBA: mismo efecto que ClassicYinYang (capa base fija + anillo que gira
+        --// encima), solo cambia la imagen — de blanco/negro a blanco/rosa.
+        YinYangPink = {
+            LabelES = "Yin Yang Pink",
+            LabelEN = "Yin Yang Pink",
+
+            Layers = {
+                { Image = "rbxassetid://92154292599420",  Movement = "None" },
+                { Image = "rbxassetid://101112636011105", Movement = "Spin", Speed = 60, Direction = 1, Style = "Organic" },
+            },
+
+            -- Sin IdleSound/ClickSound propios: usa el genérico de la UI (mismo
+            -- comportamiento que ClassicYinYang cuando no se define ninguno).
         },
 
         --// 👇 Agregá acá los próximos iconos, copiando esta plantilla:
