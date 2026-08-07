@@ -111,13 +111,13 @@ return {
             LabelEN = "Draconic Style",
 
             Layers = {
-                -- Capa 1: ícono central quieto (el símbolo tipo yin yang de dragones)
+                -- Capa 1: ícono central quieto
                 { Image = "rbxassetid://117533648452730", Movement = "None" },
-                -- Capa 2: los dos dragones que giran alrededor del ícono
-                { Image = "rbxassetid://137786455340930", Movement = "Spin", Speed = 45, Direction = 1, Style = "Organic" },
+                -- Capa 2: dragones girando (Speed 75 = velocidad media-rápida)
+                { Image = "rbxassetid://137786455340930", Movement = "Spin", Speed = 75, Direction = 1, Style = "Organic" },
             },
 
-            ClickSound = { Id = "rbxassetid://122225901664901", Volume = 0.7 },
+            ClickSound = { Id = "rbxassetid://122225901664901", Volume = 0.49 },
         },
 
         --// 👇 Agregá acá los próximos iconos, copiando esta plantilla:
