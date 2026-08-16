@@ -132,19 +132,12 @@ return {
             },
         },
 
-        --// CÁPSULA ESPECIAL: las flechas solo arrastran y el texto fijo abre la librería.
+        --// Cápsula tipo pill — icono de 4 flechas + texto "Open YinYang"
+        --// No usa Layers ni sonidos: el motor de capas se omite para este tipo.
         Old = {
             LabelES = "Open YinYang",
             LabelEN = "Open YinYang",
-            Type = "Capsule",
-            OpenText = "Open YinYang",
-            Width = 246,
-            Height = 58,
-            HandleWidth = 58,
-            IconSize = 24,
-            Layers = {
-                { Image = "rbxassetid://89220810765334", Movement = "None" },
-            },
+            Type    = "Capsule",
         },
 
         --// Agrega aca los proximos iconos, copiando esta plantilla:
