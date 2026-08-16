@@ -67,6 +67,7 @@ return {
         "ClassicYinYang",
         "YinYangPink",
         "DraconicStyle",
+        "OpenYinYang",
     },
 
     Icons = {
@@ -128,6 +129,23 @@ return {
                 X2   = 0.68,  -- ojo derecho (mas a la derecha)
                 Y2   = 0.47,
                 Size = 0.09,  -- mas pequeños
+            },
+        },
+
+        --// CONTROL ESPECIAL: pill con zona de arrastre separada de la zona de apertura.
+        --// El asset de cuatro flechas solo mueve el control; el texto abre la librería.
+        OpenYinYang = {
+            LabelES = "Open YinYang",
+            LabelEN = "Open YinYang",
+            Control = "OpenYinYang",
+            OpenText = "Open YinYang",
+            IconSize = 24,
+            Width = 246,
+            Height = 58,
+            HandleWidth = 58,
+
+            Layers = {
+                { Image = "rbxassetid://89220810765334", Movement = "None" },
             },
         },
 
