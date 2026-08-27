@@ -67,6 +67,7 @@ return {
         "ClassicYinYang",
         "YinYangPink",
         "DraconicStyle",
+        "DraconicStyleVariant",
         "Old",
     },
 
@@ -129,6 +130,29 @@ return {
                 X2   = 0.68,  -- ojo derecho (mas a la derecha)
                 Y2   = 0.47,
                 Size = 0.09,  -- mas pequeños
+            },
+        },
+
+        --// Variante: misma composición que DraconicStyle; solo cambian assets y etiqueta.
+        DraconicStyleVariant = {
+            LabelES = "Estilo Dracónico II",
+            LabelEN = "Draconic Style II",
+
+            Layers = {
+                -- Capa central fija, idéntica en escala al icono de referencia.
+                { Image = "rbxassetid://130509724933587", Movement = "None", Scale = 1.2 },
+                -- Dragones en giro orgánico, con la misma escala, velocidad y dirección.
+                { Image = "rbxassetid://133325970933941", Movement = "Spin", Speed = 75, Direction = 1, Style = "Organic", Scale = 2.6 },
+            },
+
+            ClickSound = { Id = "rbxassetid://257001341", Volume = 0.60 },
+
+            Eyes = {
+                X1   = 0.32,
+                Y1   = 0.47,
+                X2   = 0.68,
+                Y2   = 0.47,
+                Size = 0.09,
             },
         },
 
