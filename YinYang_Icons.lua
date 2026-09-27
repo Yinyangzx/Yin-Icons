@@ -130,6 +130,7 @@ return {
                 X2   = 0.68,  -- ojo derecho (mas a la derecha)
                 Y2   = 0.47,
                 Size = 0.09,  -- mas pequeños
+                Color = Color3.fromRGB(255, 0, 0),  -- ojos rojos (antes blanco)
             },
         },
 
@@ -148,11 +149,12 @@ return {
             ClickSound = { Id = "rbxassetid://257001341", Volume = 0.60 },
 
             Eyes = {
-                X1   = 0.32,
-                Y1   = 0.47,
-                X2   = 0.68,
-                Y2   = 0.47,
-                Size = 0.09,
+                X1    = 0.32,
+                Y1    = 0.47,
+                X2    = 0.68,
+                Y2    = 0.47,
+                Size  = 0.09,
+                Image = "rbxassetid://106889903724713",  -- imagen con los 2 ojos ya dibujados
             },
         },
 
